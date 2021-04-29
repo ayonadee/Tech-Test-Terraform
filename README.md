@@ -3,7 +3,7 @@
 
 # Project Scope
 
--.- Teraform a load balanced web front end in AWS
+**.** Teraform a load balanced web front end in AWS
 
 -.- The solution incorporates a nuumber of elements
 
