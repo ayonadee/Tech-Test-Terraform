@@ -1,0 +1,5 @@
+environment  = "staging"
+region       = "us-east-2"
+access_key   = "needs to be filled in"
+secret_key   = "needs to be filled in"
+ami_id       = "ami-0943382e114f188e8"
