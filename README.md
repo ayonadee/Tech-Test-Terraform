@@ -26,3 +26,10 @@ configuration file lies.This will download any dependencies necessary for the se
 This will verify the creation process and scan the configuration file for any detectable faults.
 
 **.** Apply - execute terraform apply in the project directory where the configuration file lies. This will create the actual resource as well as the state file which Terraform will use to check for changes in the configuration file to what is actually deployed.
+
+To run the production configuration, we simply use
+
+cd environments/production
+terraform init
+terraform plan -var-file production.tfvars -out=plan # using a plan file, not necessary
+terraform apply plan
