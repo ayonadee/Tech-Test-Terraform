@@ -5,7 +5,7 @@
 
 **.** Teraform a load balanced web front end in AWS
 
-**.** The solution incorporates a nuumber of elements
+**.** The solution incorporates a number of elements
 
 **.** There is a minimum of 2 instances that can scale accross availability zones
 
